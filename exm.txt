@@ -1,0 +1,115 @@
+1) What would be output for the code below
+class P1 {
+public static void main(String[] args) {
+System.out.println("5" +3+8); =
+	System.out.println("5" + (3+8)); 
+System.out.println("5+3" + 8);
+  }
+}
+ 	Ans: c) 538 511 5+38 
+
+2) What would be output for the code below
+class P2 {
+public static void main(String[] args) {
+inti=10;
+	int j=i++;
+System.out.println(i);
+  }
+}
+    	Ans: d) 11 10
+
+
+3) What would be output for below code
+class P3 {
+public static void main(String[] args) {
+inti=10;
+	int j=i++ + i++ + ++i + ++i + i++;
+System.out.println(j);
+  }
+}
+		Ans: a) 62 
+
+4) What would be output for below code
+class P4 {
+public static void main(String[] args) {
+intch='A';
+	System.out.println(ch);
+   }
+}
+		Ans: c) 65  
+
+5) What would be output for below code
+class P5 {
+public static void main(String[] args) {
+int x;
+System.out.println(x);
+   }
+}
+		Ans: A) Compile Time Error 
+
+6) What would be output for the below code
+class P7 {
+boolean climate;
+public static void main(String[] args) {
+System.out.println(new P7().climate);
+   }
+}
+		Ans: B) false 
+
+
+7) Identify which statements are true or false
+Overloaded methods should differ in arg list 
+Overloaded methods may differ in return type 
+Overloaded methods may differ in access specifier
+
+		Ans: B) True True True 
+
+
+8) What would be output for the below code
+public class Hello extends String {
+public static void main(String[] args) {
+System.out.println("Hello World...");
+  }
+}
+
+	Ans: A) Compile Time Error 
+
+9) A Thread can be create by
+	 Ans: C) Both the Above 
+
+10) What would be output for below code
+Public class Test implements Runnable
+{
+	Public static void main(String[] args) {
+		Test t = new Test();
+		t.run();	
+		t.start();
+}
+	Public void run() {
+		System.out.println(“run-test”);
+	} 
+}
+	Ans: c) Compile Time Error 
+
+11) Which tag should be used to pass information from JSP to included JSP?
+
+	Ans: b) Using <%jsp:param> tag
+
+12) Which is not a directive?
+	Ans: c) export
+
+
+13) Which is mandatory in <jsp:useBean /> tag?
+	Ans: a) id, class
+
+
+14) In JSP Action tags which tags are used for bean development?
+	Ans: d. All mentioned above
+
+
+15) Which of the following is an advantage of the statement – Separation of business logic from JSP ?
+
+
+	Ans: c. All the above
+
+
